@@ -1,35 +1,31 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-
-import React from 'react';
-// these examples are based on content from react and react native, vite, and from Pakt publishing. 
-// Some content may be copyrighted but is included under "fair use" rules for teaching purposes. 
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import React from "react";
+// these examples are based on content from react and react native, vite, and from Pakt publishing.
+// Some content may be copyrighted but is included under "fair use" rules for teaching purposes.
 // Not for reuse or redistribution!
 
 //---------------------------
 // Default Vite function
 //----------------------------
 
-createRoot(document.getElementById('root')).render(
+/*createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>,
-)
-
+) */
 
 //----------------------------
 // Hello JSX
 //-----------------------------
-/*
-createRoot(document.getElementById('root')).render(
-   <p>
+
+/*createRoot(document.getElementById("root")).render(
+  <p>
     Hello, <strong>JSX</strong>
   </p>
-);
-*/
-
+); */
 
 //----------------------------
 // React.createElement()
@@ -83,7 +79,6 @@ root.render(
 // Note: <Button /> will throw an error.
 //root.render(<Button />);
 */
-
 
 //----------------------------
 // Describing UI structures
@@ -207,6 +202,3 @@ root.render(
   </section>
 );
 */
-
-
-
